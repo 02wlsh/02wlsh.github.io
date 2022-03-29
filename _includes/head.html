@@ -23,3 +23,8 @@
     <script src="{{ script | relative_url }}"></script>
   {% endfor %}
 {% endif %}
+
+<!-- darkmode css -->
+{% if site.dark_theme_toggle == true %}
+<link rel="stylesheet" href="/assets/css/main_dark.css">
+{% endif %}
